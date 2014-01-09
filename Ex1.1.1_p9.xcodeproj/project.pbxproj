@@ -21,6 +21,7 @@
 		007A1438187E336800E536CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007A141A187E336800E536CE /* UIKit.framework */; };
 		007A1440187E336800E536CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 007A143E187E336800E536CE /* InfoPlist.strings */; };
 		007A1442187E336800E536CE /* Ex1_1_1_p9Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A1441187E336800E536CE /* Ex1_1_1_p9Tests.m */; };
+		007A144D187E345200E536CE /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A144C187E345200E536CE /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		007A143D187E336800E536CE /* Ex1.1.1_p9Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex1.1.1_p9Tests-Info.plist"; sourceTree = "<group>"; };
 		007A143F187E336800E536CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		007A1441187E336800E536CE /* Ex1_1_1_p9Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex1_1_1_p9Tests.m; sourceTree = "<group>"; };
+		007A144B187E345200E536CE /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		007A144C187E345200E536CE /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		007A141C187E336800E536CE /* Ex1.1.1_p9 */ = {
 			isa = PBXGroup;
 			children = (
+				007A144B187E345200E536CE /* Model.h */,
+				007A144C187E345200E536CE /* Model.m */,
 				007A1425187E336800E536CE /* AppDelegate.h */,
 				007A1426187E336800E536CE /* AppDelegate.m */,
 				007A1428187E336800E536CE /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				007A142D187E336800E536CE /* ViewController.m in Sources */,
 				007A1427187E336800E536CE /* AppDelegate.m in Sources */,
 				007A1423187E336800E536CE /* main.m in Sources */,
+				007A144D187E345200E536CE /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
